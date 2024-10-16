@@ -62,12 +62,12 @@
                 - В подписи укажи названия любых тем по верстке (все, что знаешь или слышал). 
                 - Каждый чекбокс должен быть связан со своей подписью. Для этого чекбокс должен находиться в элементе для подписи
                 - Отметь "галочкой" (с помощью специального атрибута) темы, которые ты уже знаешь. -->
-                <label for="header"></label>
-                <input type="checkbox" id="header" checked>html
-                <label for="section"></label>
-                <input type="checkbox" id="section">css
-                <label for="footer"></label>
-                <input type="checkbox" id="footer">java script
+                <label for="header">html</label>
+                <input type="checkbox" id="header" checked>
+                <label for="section">css</label>
+                <input type="checkbox" id="section">
+                <label for="footer">java_script</label>
+                <input type="checkbox" id="footer">
         </div>
         <!-- 5) Создай здесь однострочное поле для ввода текста с подсказкой "Новый скилл", которая исчезает, когда начинаешь что-то печатать (для подсказки есть специальный атрибут) -->
         <!-- 6) Создай здесь кнопку “Добавить” -->
@@ -75,16 +75,15 @@
         <input placeholder="Новый скилл" type="text">
         <button>добавить</button>
         <hr>
-        <table data-cy="hw-about-table-pre">
+        <table data-cy="hw-about-table-pre" border="2px">
             <!-- 8) В таблице сделай 5 строк и 3 столбца. 
                         - В первой строке ячейки заголовков, в остальных обычные ячейки
                         - Добавь границы для всей таблицы с помощью специального атрибута border="". Он устарел, но работает
                         - В последнем ряду первая ячейка должна занимать все свободное место по горизонтали (ширине). Таблицу можно заполнять любыми данными -->
-                        <table border="2px">
                             <tr>
-                                <td>Заголовок</td>
-                                <td>пусто</td>
-                                <td>пусто</td>  
+                                <th>Заголовок</th>
+                                <th>Заголовок</th>
+                                <th>Заголовок</th>  
                             </tr>
                             <tr>
                                 <td>пусто</td>
@@ -104,7 +103,6 @@
                             <tr>
                                 <td colspan="3">пусто</td>
                             </tr>
-                        </table>
         </table>
     </section>
     <footer data-cy="hw-footer-pre">
